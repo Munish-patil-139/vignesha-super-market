@@ -20,7 +20,7 @@ const MyAccountForgetPassword = () => {
                 {/* img */}
                 <img
                   src={forgetpassword}
-                  alt="freshcart"
+                  alt="Vignesha Super Market"
                   className="img-fluid"
                 />
               </div>

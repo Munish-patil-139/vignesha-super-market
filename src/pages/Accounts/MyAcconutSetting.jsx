@@ -138,7 +138,7 @@ const MyAcconutSetting = () => {
                                     <input
                                       type="text"
                                       className="form-control"
-                                      placeholder="Nigam Mishra"
+                                      placeholder="Kapil Patil"
                                     />
                                   </div>
                                   {/* input */}
@@ -156,7 +156,7 @@ const MyAcconutSetting = () => {
                                     <input
                                       type="text"
                                       className="form-control"
-                                      placeholder="Phone number"
+                                      placeholder="8999477959"
                                     />
                                   </div>
                                   {/* button */}

@@ -37,8 +37,8 @@ const Careers = () => {
       <div className="row">
         <div className="col-md-12 mb-6">
           <div className="section-head text-center mt-8">
-            <h1 className="h3style" style={{ color: "green" }} data-title="Join Our Grocery Team">
-              Join Our Grocery Team
+            <h1 className="h3style" style={{ color: "green" }} data-title="Join Our Vignesha Team">
+              Join Our Vignesha Team
             </h1>
             <div className="wt-separator bg-primarys"></div>
             <div className="wt-separator2 bg-primarys"></div>

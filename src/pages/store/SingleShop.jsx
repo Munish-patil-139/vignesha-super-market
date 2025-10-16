@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 
-import Grocerylogo from "../../images/Grocerylogo.png";
+// logo image removed — using text branding instead
 import product1 from "../../images/category-baby-care.jpg";
 import product2 from "../../images/category-atta-rice-dal.jpg";
 import product3 from "../../images/category-bakery-biscuits.jpg";
@@ -86,21 +86,17 @@ const SingleShop = () => {
                     <div className="col-12 col-lg-3 col-md-4 mb-4 mb-md-0">
                       <div className="d-flex flex-column">
                         <div>
-                          {/* img */}
-                          {/* img */}
-                          <img
-                            src={Grocerylogo}
-                            style={{
-                              width: 200,
-                              marginBottom: 10,
-                              marginLeft: "-15px",
-                            }}
-                            alt="eCommerce HTML Template"
-                          />
+                          {/* Brand text replacing logo image */}
+                          <div style={{
+                            fontWeight: 700,
+                            fontSize: 20,
+                            marginBottom: 10,
+                            marginLeft: '-15px'
+                          }}>Vignesha Market</div>
                         </div>
                         {/* heading */}
                         <div className="mt-4">
-                          <h1 className="mb-1 h4">E-Grocery Super Market</h1>
+                          <h1 className="mb-1 h4">Vignesha Super Market</h1>
                           <div className="small text-muted">
                             <span>Everyday store prices </span>
                           </div>
@@ -334,7 +330,7 @@ const SingleShop = () => {
                               type="email"
                               className="form-control"
                               id="exampleFormControlInput1"
-                              placeholder="Search E-Grocery Super Market"
+                              placeholder="Search Vignesha Super Market"
                             />
                             <span className="position-absolute end-0 top-0 mt-2 me-3">
                               <svg

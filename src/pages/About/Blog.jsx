@@ -52,7 +52,7 @@ const Blog = () => {
                     <div className="row">
                       {/* logo */}
                       <div className="col-12">
-                        <h1 className="fw-bold">FreshCart Blog</h1>
+                        <h1 className="fw-bold">Vignesha Super Market Blog</h1>
                       </div>
                     </div>
                   </div>

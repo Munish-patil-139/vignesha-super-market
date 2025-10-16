@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Grocerylogo from "../images/Grocerylogo.png";
+// logo image removed per branding update
 import menubanner from "../images/menu-banner.jpg";
 import productimage1 from '../images/product-img-1.jpg'
 import productimage2 from '../images/product-img-2.jpg'
@@ -226,12 +226,8 @@ const Header = () => {
       </>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container">
-          <Link className="navbar-brand" to="/Grocery-react/">
-            <img
-              src={Grocerylogo}
-              style={{ width: 200, marginBottom: 10, marginLeft: "-15px" }}
-              alt="eCommerce HTML Template"
-            />
+          <Link className="navbar-brand d-flex align-items-center" to="/Grocery-react/" aria-label="Vignesh Market">
+            <span style={{ fontWeight: 700, fontSize: 18 }}>Vignesh Market</span>
           </Link>
           <input
             className="form-control responsivesearch "

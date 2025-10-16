@@ -50,6 +50,10 @@ const Contact = () => {
                           other customer or shopper support requests, please
                           visit the links below this form.
                         </p>
+                        <div className="mt-3">
+                          <p className="mb-1"><strong>Contact:</strong> Kapil Patil</p>
+                          <p className="mb-0"><strong>Phone:</strong> 8999477959</p>
+                        </div>
                       </div>
                       {/* form */}
                       <form className="row">

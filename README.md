@@ -1,4 +1,4 @@
-<h1 align="center"> Grocery React</h1>
+<h1 align="center"> Vignesha Super Market</h1>
 
 <p float="left">
   <img src="./src/Demoimages/01.png"  width = 45%/>
@@ -21,7 +21,7 @@
 
 
 <div class="theme-description">
-                        <p>FreshCart is a beautiful eCommerce React.js template specially designed for multipurpose shops like mega stores, grocery stores, supermarkets, organic shops, and online stores selling products. You can build an impactful store website for your online shop or other similar businesses without grounding things up. Moreover, its clean, minimal, and beautiful design with 100% responsive layouts will hook the visitors at first sight.</p>
+                        <p>Vignesha Super Market is a beautiful eCommerce React.js template specially designed for multipurpose shops like mega stores, grocery stores, supermarkets, organic shops, and online stores selling products. You can build an impactful store website for your online shop or other similar businesses without grounding things up. Moreover, its clean, minimal, and beautiful design with 100% responsive layouts will hook the visitors at first sight.</p>
 <h3>eCommerce Features:</h3>
 <ul>
 <li>Built on top of Bootstrap5,Bootstrap4 and some React.js Hooks</li>

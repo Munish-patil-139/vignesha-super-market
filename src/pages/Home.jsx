@@ -254,7 +254,7 @@ const Home = () => {
                               Opening Sale Discount 50%
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                              SuperMarket Daily <br /> Fresh Grocery
+                              Vignesha Super Market <br /> Daily Fresh
                             </h2>
                             <p className="lead">
                               Introduced a new model for online grocery shopping
@@ -344,7 +344,7 @@ const Home = () => {
                             {/* text */}
                             <div className="ms-lg-4">
                               <h1 className="fs-2 mb-1">
-                                Welcome to FreshCart
+                                Welcome to Vignesha Super Market
                               </h1>
                               <span>
                                 Download the app get free food &amp;{" "}
@@ -356,7 +356,7 @@ const Home = () => {
                           <div className="mt-3 mt-lg-0">
                             {/* btn */}
                             <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
+                              Download Vignesha App
                             </Link>
                           </div>
                         </div>
@@ -867,7 +867,7 @@ const Home = () => {
                         <div className="mb-6">
                           <div className="mb-7">
                             {/* heading */}
-                            <h1>Get the FreshCart app</h1>
+                            <h1>Get the Vignesha app</h1>
                             <h5 className="mb-0">
                               We will send you a link, open it on your phone to
                               download the app.
@@ -1557,10 +1557,10 @@ const Home = () => {
                             </div>
                             <div className="icon-content">
                               {/* <h4 className="wt-tilte">Reports</h4> */}
-                              <h3 className="h5 mb-3">10 minute grocery now</h3>
+                              <h3 className="h5 mb-3">10 minute delivery — Vignesha</h3>
                               <p>
                                 Get your order delivered to your doorstep at the
-                                earliest from FreshCart pickup
+                                earliest from Vignesha pickup
                                 <p> stores near you.</p>
                               </p>
                             </div>

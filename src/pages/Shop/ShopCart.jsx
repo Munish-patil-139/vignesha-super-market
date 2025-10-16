@@ -550,7 +550,7 @@ const ShopCart = () => {
                       <p>
                         <small>
                           By placing your order, you agree to be bound by the
-                          Freshcart <Link to
+                          Vignesha <Link to
                           ="#!">Terms of Service</Link>
                           and <Link to
                           ="#!">Privacy Policy.</Link>{" "}

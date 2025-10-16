@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import groceryshop from "../images/Grocerylogo.png";
+// logo image removed — using text branding instead
 import amazonpay from "../images/amazonpay.svg";
 import american from "../images/american-express.svg";
 import mastercard from "../images/mastercard.svg";
@@ -20,14 +20,14 @@ const Footer = () => {
             <div className="row footer-row">
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget">
-                  <div className="footer-logo">
-                    <Link to="/">
-                      <img
-                        src={groceryshop}
-                        style={{ width: 300, padding: 20, marginLeft: "-30px" }}
-                        alt="logo"
-                      />
+                  <div className="footer-logo" style={{ padding: 20, marginLeft: "-30px" }}>
+                    <Link to="/" style={{ fontWeight: 700, fontSize: 18, textDecoration: 'none', color: 'inherit' }}>
+                      Vignesha Market
                     </Link>
+                  </div>
+                  <div className="mt-2">
+                    <p className="mb-1"><strong>Contact:</strong> Kapil Patil</p>
+                    <p className="mb-0"><strong>Phone:</strong> 8999477959</p>
                   </div>
                   <p className="mb-30">
                     We deliver more than your expectations and help you to grow
@@ -42,27 +42,27 @@ const Footer = () => {
                     <ul className="list-inline d-flex mb-0">
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={amazonpay} alt="footerfreshcart" />
+                          <img src={amazonpay} alt="footer-vignesha" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={american} alt="footerfreshcart" />
+                          <img src={american} alt="footer-vignesha" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={mastercard} alt="footerfreshcart" />
+                          <img src={mastercard} alt="footer-vignesha" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={paypal} alt="footerfreshcart" />
+                          <img src={paypal} alt="footer-vignesha" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={visa} alt="footerfreshcart" />
+                          <img src={visa} alt="footer-vignesha" />
                         </Link>
                       </li>
                     </ul>
@@ -311,11 +311,8 @@ const Footer = () => {
                 <div className="copyright">
                   © {year} All Rights Reserved By _
                   
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                     @nigammishra
+                  <Link to="https://github.com/Kapilpatil" target="_blank">
+                    @Kapilpatil
                   </Link>
                 </div>
               </div>

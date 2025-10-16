@@ -143,7 +143,7 @@ const StoreList = () => {
                   <div className="ms-6">
                     <h5 className="mb-1">
                       <a href="#!" className="text-inherit">
-                        E-Grocery Super Market
+                        Vignesha Super Market
                       </a>
                     </h5>
                     <div className="small text-muted">
