@@ -120,10 +120,10 @@ const ShopWishList = () => {
                                   Organic Banana
                                 </Link>
                               </h5>
-                              <small>$.98 / lb</small>
+                              <small>Rs .98 / lb</small>
                             </div>
                           </td>
-                          <td className="align-middle">$35.00</td>
+                          <td className="align-middle">Rs 35.00</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -181,7 +181,7 @@ const ShopWishList = () => {
                               <small>4 no</small>
                             </div>
                           </td>
-                          <td className="align-middle">$20.97</td>
+                          <td className="align-middle">Rs 20.97</td>
                           <td className="align-middle">
                             <span className="badge bg-danger">
                               Out of Stock

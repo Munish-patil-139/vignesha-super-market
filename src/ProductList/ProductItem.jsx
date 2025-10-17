@@ -117,9 +117,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">Rs 18</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        Rs 24
                       </span>
                     </div>
                     <div>

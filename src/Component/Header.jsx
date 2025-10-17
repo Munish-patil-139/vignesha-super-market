@@ -841,7 +841,7 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$35.00</span>
+                      <span className="fw-bold">Rs 35.00</span>
                     </div>
                   </div>
                 </li>
@@ -911,9 +911,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$20.97</span>
+                      <span className="fw-bold">Rs 20.97</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $26.97
+                        Rs 26.97
                       </span>
                     </div>
                   </div>
@@ -984,9 +984,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$25.00</span>
+                      <span className="fw-bold">Rs 25.00</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        Rs 45.00
                       </span>
                     </div>
                   </div>
@@ -1057,9 +1057,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$39.87</span>
+                      <span className="fw-bold">Rs 39.87</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        Rs 45.00
                       </span>
                     </div>
                   </div>
@@ -1132,9 +1132,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$39.87</span>
+                      <span className="fw-bold">Rs 39.87</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        Rs 45.00
                       </span>
                     </div>
                   </div>
@@ -1147,7 +1147,7 @@ const Header = () => {
                 type="submit"
               >
                 {" "}
-                Go to Checkout <span className="fw-bold">$120.00</span>
+                      Go to Checkout <span className="fw-bold">Rs 120.00</span>
               </button>
             </div>
           </div>
@@ -1205,42 +1205,42 @@ const Header = () => {
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                     >
                       <span>Alabama</span>
-                      <span>Min:$20</span>
+                      <span>Min:Rs 20</span>
                     </Link>
                     <Link
                       to="#"
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                     >
                       <span>Alaska</span>
-                      <span>Min:$30</span>
+                      <span>Min:Rs 30</span>
                     </Link>
                     <Link
                       to="#"
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                     >
                       <span>Arizona</span>
-                      <span>Min:$50</span>
+                      <span>Min:Rs 50</span>
                     </Link>
                     <Link
                       to="#"
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                     >
                       <span>California</span>
-                      <span>Min:$29</span>
+                      <span>Min:Rs 29</span>
                     </Link>
                     <Link
                       to="#"
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                     >
                       <span>Colorado</span>
-                      <span>Min:$80</span>
+                      <span>Min:Rs 80</span>
                     </Link>
                     <Link
                       to="#"
                       className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                     >
                       <span>Florida</span>
-                      <span>Min:$90</span>
+                      <span>Min:Rs 90</span>
                     </Link>
                     <Link
                       to="#"

@@ -44,40 +44,15 @@ const SingleShop = () => {
           </div>
         ) : (
           <>
-           <>
-        <ScrollToTop/>
-        </>
-            <>
-              {/* section*/}
-              <div className="mt-4">
+            <ScrollToTop />
+            {/* section*/}
+            <div className="mt-4">
                 <div className="container">
                   {/* row */}
                   <div className="row">
                     {/* col */}
                     <div className="col-12">
-                      {/* breadcrumb */}
-                      {/* <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb mb-0">
-                          <li className="breadcrumb-item">
-                            <Link to="#!">Home</Link>
-                          </li>
-                          <li className="breadcrumb-item">
-                            <Link to="#!">Stores</Link>
-                          </li>
-                          <li
-                            className="breadcrumb-item active"
-                            aria-current="page"
-                          >
-                            E-Grocery Super Market
-                          </li>
-                        </ol>
-                      </nav> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </>
-            <>
+                      {/* breadcrumb (removed placeholder) */}
               {/* section */}
               <section className="mb-lg-14 mb-8 mt-8">
                 <div className="container">
@@ -135,8 +110,8 @@ const SingleShop = () => {
                             aria-current="page"
                             to="#"
                           >
-                            <i className="feather-icon icon-shopping-bag me-2" />
-                            Shop
+                                  <span className="text-dark">Rs 24</span>
+                                    Rs 24
                           </Link>
                         </li>
                         {/* nav item */}
@@ -345,9 +320,9 @@ const SingleShop = () => {
                                 strokeLinejoin="round"
                                 className="feather feather-search"
                               >
-                                <circle cx={11} cy={11} r={8} />
-                                <line x1={21} y1={21} x2="16.65" y2="16.65" />
-                              </svg>
+                                  <circle cx={11} cy={11} r={8} />
+                                  <line x1={21} y1={21} x2="16.65" y2="16.65" />
+                                </svg>
                             </span>
                           </div>
                         </div>
@@ -384,12 +359,8 @@ const SingleShop = () => {
                               aria-label="Default select example"
                             >
                               <option selected>Sort by: Featured</option>
-                              <option value="Low to High">
-                                Price: Low to High
-                              </option>
-                              <option value="High to Low">
-                                Price: High to Low
-                              </option>
+                              <option value="Low to High">Price: Low to High</option>
+                              <option value="High to Low">Price: High to Low</option>
                               <option value="Release Date">Release Date</option>
                               <option value="Avg. Rating">Avg. Rating</option>
                             </select>
@@ -935,9 +906,9 @@ const SingleShop = () => {
                               </div>
                               <div className="d-flex justify-content-between mt-4">
                                 <div>
-                                  <span className="text-dark">$13</span>
+                                  <span className="text-dark">Rs 13</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $18
+                                    Rs 18
                                   </span>
                                 </div>
                                 <div>
@@ -1601,7 +1572,10 @@ const SingleShop = () => {
                   </div>
                 </div>
               </section>
-            </>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </>
         )}
       </div>

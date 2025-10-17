@@ -187,7 +187,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $15.00
+                                  Rs 15.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -234,7 +234,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $45.00
+                                  Rs 45.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -280,7 +280,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $99.00
+                                  Rs 99.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -327,7 +327,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $12.00
+                                  Rs 12.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -374,7 +374,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $6.00
+                                  Rs 6.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -421,7 +421,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $18.00
+                                  Rs 18.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
