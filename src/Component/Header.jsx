@@ -226,7 +226,7 @@ const Header = () => {
       </>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container">
-          <Link className="navbar-brand d-flex align-items-center" to="/Grocery-react/" aria-label="Vignesh Market">
+          <Link className="navbar-brand d-flex align-items-center" to="." aria-label="Vignesh Market">
             <span style={{ fontWeight: 700, fontSize: 18 }}>Vignesh Market</span>
           </Link>
           <input
@@ -318,7 +318,7 @@ const Header = () => {
             </li>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Grocery-react/">
+            <Link className="nav-link" to=".">
               Home
             </Link>
           </li>
